@@ -1,0 +1,5 @@
+faiss-cpu==1.8.0.post1
+numpy>=1.21,<2.0  # Compatible with faiss-cpu
+PyPDF2==3.0.1
+sentence-transformers==2.2.2  # Use the latest compatible version
+streamlit==1.36.0

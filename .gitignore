@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Cache and log files
+*.log
+*.cache/
+*.pyc
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Streamlit static files (if generated)
+.streamlit/
+
+# Ignore only generated files (optional)
+!data/                    # Ensure the data folder is included
+!data/*.pdf               # Ensure PDFs are included
+!data/*.txt               # Ensure extracted text files are included
+
+# Other IDE or editor-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
